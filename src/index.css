@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-warm-white: #FFFBF5;
+  --color-brand-coral: #FF6321;
+  --color-brand-yellow: #FFEDD5;
+  --color-brand-teal: #9A3412;
+  --color-brand-blue: #5A5A40;
+  --color-brand-dark: #1A1A1A;
+  
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'Georgia', serif;
+
+  --radius-xl: 1.5rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 1.5rem;
+}
+
+body {
+  background-color: var(--color-warm-white);
+  color: var(--color-brand-dark);
+  font-family: var(--font-display);
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Hide scrollbar for clean horizontal scrolls */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@layer components {
+  /* Override styles to match editorial theme */
+  .bg-white,
+  .bg-warm-white {
+    background-color: #FFFFFF !important;
+    border: 1px solid rgba(0,0,0,0.05) !important;
+    box-shadow: 10px 10px 0px rgba(255, 99, 33, 0.1) !important;
+    border-radius: 24px !important;
+  }
+  
+  .bg-brand-dark {
+    background-color: #292524 !important; /* stone-800 */
+    box-shadow: none !important;
+    border-radius: 24px !important;
+  }
+  
+  /* Exceptions for Nav / specific containers */
+  nav .bg-white,
+  header .bg-white,
+  footer.bg-brand-dark {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  
+  .pill {
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: var(--font-sans);
+  }
+}
+
