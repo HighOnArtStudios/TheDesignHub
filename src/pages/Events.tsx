@@ -4,13 +4,23 @@ import { Button } from "../components/ui/Button";
 const upcomingEvents = [
   {
     id: 1,
-    title: "Picnic & Playlist Market",
-    date: "May 20, 2026",
-    time: "11:00 AM - 4:00 PM",
-    location: "Kerckhoff Park, Kerman CA",
-    description: "Join us for an afternoon of live music, delicious food vendors, and local crafts. Bring a blanket, grab some food, and enjoy the community vibes.",
+    title: "Picnic and Playlists",
+    date: "May 23, 2026",
+    time: "1:00 PM - 7:00 PM",
+    location: "Trinis Park, Kerman CA",
+    description: "Join us for an afternoon of music, delicious food vendors, and local crafts. Bring a blanket, lawn chair, grab some food and enjoy the community.",
     image: "https://images.unsplash.com/photo-1533174000220-410a0e5b72e5?auto=format&fit=crop&q=80&w=800",
     status: "Selling Fast"
+  },
+  {
+    id: 3,
+    title: "Dough for a Cause Fundraiser",
+    date: "June 14, 2026",
+    time: "9:00 AM - 2:00 PM",
+    location: "Kateys Park, Kerman CA",
+    description: "Join us in Kerman, CA for Dough for a Cause, a community fundraiser supporting the Rizo’s Pizzeria family and The Design Hub Studios. Half of all vendor fees will be donated directly to help reunite their family, making every sign-up a meaningful contribution. The event will feature local vendors, artists, and food businesses coming together for a great cause. To participate as a vendor, text (559) 515-9558 with your name, business name, and what you sell.",
+    image: "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&q=80&w=800",
+    status: "Upcoming"
   },
   {
     id: 2,

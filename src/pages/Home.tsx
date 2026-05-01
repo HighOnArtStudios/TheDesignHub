@@ -23,7 +23,7 @@ export default function Home() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-teal opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-teal"></span>
               </span>
-              Upcoming: Spring Fling Market (May 20th)
+              Upcoming: Picnic and Playlists (May 23rd)
             </span>
           </motion.div>
           
@@ -75,18 +75,18 @@ export default function Home() {
           
           <div className="flex-1 relative z-10">
             <h2 className="text-brand-yellow font-medium tracking-wider text-sm uppercase mb-2">Next Big Event</h2>
-            <h3 className="text-3xl md:text-4xl font-display font-bold mb-4">Picnic & Playlist Market</h3>
+            <h3 className="text-3xl md:text-4xl font-display font-bold mb-4">Picnic and Playlists</h3>
             <p className="text-white/80 mb-6 max-w-md text-lg">
-              Join us for an afternoon of live music, delicious food vendors, and local crafts at Kerckhoff Park.
+              Join us for an afternoon of music, delicious food vendors, and local crafts. Bring a blanket, lawn chair, grab some food and enjoy the community.
             </p>
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="flex items-center gap-3">
                 <Calendar className="text-brand-yellow w-5 h-5" />
-                <span className="font-medium">May 20, 2026</span>
+                <span className="font-medium">May 23, 2026</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="text-brand-yellow w-5 h-5" />
-                <span className="font-medium">Kerman, CA</span>
+                <span className="font-medium">Trinis Park, CA</span>
               </div>
             </div>
             <div className="flex gap-4">
@@ -98,7 +98,7 @@ export default function Home() {
              {/* Countdown mockup */}
              <div className="grid grid-cols-3 gap-4 text-center w-full max-w-xs">
                 <div className="bg-white/10 rounded-xl p-4 backdrop-blur-md border border-white/10">
-                  <div className="font-display text-4xl font-bold text-brand-yellow">19</div>
+                  <div className="font-display text-4xl font-bold text-brand-yellow">22</div>
                   <div className="text-xs uppercase tracking-wider text-white/60 mt-1">Days</div>
                 </div>
                 <div className="bg-white/10 rounded-xl p-4 backdrop-blur-md border border-white/10">

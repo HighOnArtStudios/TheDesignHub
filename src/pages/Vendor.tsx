@@ -25,15 +25,15 @@ export default function Vendor() {
                 <div className="w-10 h-10 bg-brand-coral/10 text-brand-coral rounded-xl flex items-center justify-center mb-4">
                   <Users size={20} />
                 </div>
-                <h3 className="font-bold text-lg mb-2">Massive Exposure</h3>
-                <p className="text-brand-dark/70 text-sm">Reach hundreds of local families and arts enthusiasts in the Kerman/Fresno area.</p>
+                <h3 className="font-bold text-lg mb-2 text-brand-dark">Building Our Future</h3>
+                <p className="text-brand-dark/70 text-sm leading-relaxed">You're helping build something for our community now and in the future, inspiring youth to elders and opening opportunities for collaborations and for teaching workshops in the community during our monthly fundraising events to build awareness and funds to open an art studio in Kerman, CA.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-brand-dark/5">
                 <div className="w-10 h-10 bg-brand-teal/10 text-brand-teal rounded-xl flex items-center justify-center mb-4">
                   <DollarSign size={20} />
                 </div>
                 <h3 className="font-bold text-lg mb-2">Affordable Booths</h3>
-                <p className="text-brand-dark/70 text-sm">Keep your overhead low with competitive pricing starting at just $35 per event.</p>
+                <p className="text-brand-dark/70 text-sm leading-relaxed">Pricing varies for booths depending on the location of the event and if you have a Kerman business license.</p>
               </div>
             </div>
           </section>
@@ -49,14 +49,14 @@ export default function Vendor() {
                 <div className="w-10 h-10 rounded-full bg-brand-dark text-white flex shrink-0 items-center justify-center font-bold">1</div>
                 <div>
                   <h3 className="font-bold text-lg">Submit Application</h3>
-                  <p className="text-brand-dark/70 text-sm">Fill out our quick online form detailing what you sell and your setup needs.</p>
+                  <p className="text-brand-dark/70 text-sm font-sans mb-1">Fill out our quick online form. Let us know if you have a local Kerman license!</p>
                 </div>
               </div>
               <div className="flex gap-4 p-4 rounded-xl hover:bg-white transition-colors">
                 <div className="w-10 h-10 rounded-full bg-brand-dark text-white flex shrink-0 items-center justify-center font-bold">2</div>
                 <div>
                   <h3 className="font-bold text-lg">Pay Booth Fee</h3>
-                  <p className="text-brand-dark/70 text-sm">Once approved, secure your spot by paying the fee via Zelle, Cash App, PayPal, or Venmo.</p>
+                  <p className="text-brand-dark/70 text-sm font-sans mb-1">Secure your spot with a transparent fee (Starts at $35, varies by venue/license).</p>
                 </div>
               </div>
               <div className="flex gap-4 p-4 rounded-xl hover:bg-white transition-colors">
@@ -78,27 +78,34 @@ export default function Vendor() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-brand-yellow mb-2 text-lg">Cancellations & Refunds</h3>
-                <p className="text-white/80 text-sm leading-relaxed">
+                <p className="text-white/80 text-sm leading-relaxed font-sans">
                   All booth fees are strictly <span className="font-bold text-white">non-refundable</span>. By making a payment, you secure your spot and block other vendors from taking it.
                 </p>
               </div>
               <div className="h-px bg-white/10 w-full"></div>
               <div>
                 <h3 className="font-bold text-brand-yellow mb-2 text-lg">Rescheduling</h3>
-                <ul className="space-y-3 text-sm text-white/80">
+                <ul className="space-y-3 text-sm text-white/80 font-sans">
                   <li className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
-                    <span><strong className="text-white">Free</strong> if the event is rescheduled by the organizer or due to weather.</span>
+                    <span><strong className="text-white">Free transfers</strong> if the event is rescheduled on the host's end.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-brand-teal shrink-0 mt-0.5" />
-                    <span><strong className="text-white">$10.83 transfer fee</strong> if requested 2+ weeks before the event.</span>
+                    <span><strong className="text-white">$10.83 reschedule fee</strong> if requested 2 weeks or more before the event.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-brand-coral shrink-0 mt-0.5" />
-                    <span><strong className="text-white">No changes</strong> allowed if requested less than 2 weeks before the event.</span>
+                    <span><strong className="text-white">Non-refundable</strong> and no changes allowed if requested less than 2 weeks before the event.</span>
                   </li>
                 </ul>
+              </div>
+              <div className="h-px bg-white/10 w-full mt-6 mb-6"></div>
+              <div>
+                <h3 className="font-bold text-brand-yellow mb-2 text-lg">Vendor Placement</h3>
+                <p className="text-white/80 text-sm leading-relaxed font-sans mt-2">
+                  We allow multiple vendors of a category and let everyone know, and we work hard to provide a fair layout for everyone.
+                </p>
               </div>
             </div>
           </section>
@@ -111,25 +118,29 @@ export default function Vendor() {
               <div>
                 <p className="text-sm font-medium text-brand-dark/60 uppercase tracking-widest mb-1">Standard Booth</p>
                 <div className="flex items-baseline gap-1">
+                  <span className="text-sm text-brand-dark/50 mr-1 italic">Starts at</span>
                   <span className="text-4xl font-display font-bold">$35</span>
-                  <span className="text-brand-dark/50">/ event</span>
                 </div>
               </div>
-              <span className="bg-brand-coral/10 text-brand-coral text-xs font-bold px-2 py-1 rounded-md">Selling Fast</span>
+              <span className="bg-brand-coral/10 text-brand-coral text-xs font-bold px-2 py-1 rounded-md shrink-0">Selling Fast</span>
             </div>
             
-            <ul className="space-y-4 mb-8">
+            <ul className="space-y-4 mb-8 font-sans">
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-5 h-5 text-brand-teal shrink-0" />
                 <span>10x10 Space (You provide canopy/tables)</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-5 h-5 text-brand-teal shrink-0" />
-                <span>Social Media Shoutout</span>
+                <span>Kerman Business License Discount</span>
+              </li>
+              <li className="flex items-start gap-3 text-sm italic">
+                <Check className="w-5 h-5 text-brand-teal shrink-0" />
+                <span>Location-based pricing applies</span>
               </li>
               <li className="flex items-start gap-3 text-sm">
                 <Check className="w-5 h-5 text-brand-teal shrink-0" />
-                <span>On-site support team</span>
+                <span>Social Media Shoutout</span>
               </li>
             </ul>
 
